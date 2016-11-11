@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_sources">Sources</string>
+    <string name="button_browse">Browse</string>
+    <string name="button_devices">Devices</string>
+    <string name="button_bTooth">Bluetooth</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sources"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mazaval4.myfirstapp.Sources">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_devices"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="displayDevices"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_bTooth"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="displayDevices"/>
+
+
+</LinearLayout>
